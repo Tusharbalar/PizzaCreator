@@ -9,12 +9,14 @@ import { HttpModule } from '@angular/http';
 import { HomeComponent } from './home/home.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { PizzaNameComponent } from './components/pizza-name/pizza-name.component';
+import { PizzaListComponent } from './components/pizza-list/pizza-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PizzaNameComponent
+    PizzaNameComponent,
+    PizzaListComponent
   ],
   imports: [
     BrowserModule,
