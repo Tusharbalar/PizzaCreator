@@ -11,6 +11,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { PizzaNameComponent } from './components/pizza-name/pizza-name.component';
 import { PizzaListComponent } from './components/pizza-list/pizza-list.component';
 import { PizzaButtonComponent } from './components/pizza-button/pizza-button.component';
+import { PizzaSelectedComponent } from './components/pizza-selected/pizza-selected.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PizzaButtonComponent } from './components/pizza-button/pizza-button.com
     HomeComponent,
     PizzaNameComponent,
     PizzaListComponent,
-    PizzaButtonComponent
+    PizzaButtonComponent,
+    PizzaSelectedComponent
   ],
   imports: [
     BrowserModule,
