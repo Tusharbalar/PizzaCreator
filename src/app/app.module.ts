@@ -15,6 +15,8 @@ import { PizzaButtonComponent } from './components/pizza-button/pizza-button.com
 import { PizzaSelectedComponent } from './components/pizza-selected/pizza-selected.component';
 import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
 
+import { PizzaService } from './service/pizza.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +36,7 @@ import { PizzaFormComponent } from './components/pizza-form/pizza-form.component
     RouterModule.forRoot(rootRouterConfig, { useHash: true })
   ],
   providers: [
+    PizzaService
   ],
   bootstrap: [ AppComponent ]
 })
