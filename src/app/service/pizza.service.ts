@@ -36,7 +36,7 @@ export class PizzaService {
 
   addPizza(pizza: Pizza) {
     const value = this.subject.value;
-    // this.subject.next({ value, pizzas: [...value.pizzas, pizza] });
+    value.pizzas.push(pizza);
   }
 
 }
