@@ -1,7 +1,8 @@
-## angular2-seed
+## Pizza Creator
 
-A simple starter project demonstrating the basic concepts of Angular 2.
+Component architecture is the fundamental building block of applications, and isn’t just limited to Angular. Building with components allows for things such as encapsulation, isolation and reusability for a single or set of components. When dealing with forms, using components has typically been a challenge - and I’d like to share some patterns when creating reactive forms with Angular’s component based system that make dealing with forms a bit of a breeze.
 
+For the purposes of this application, we’ll be focusing on some of Angular’s reactive form APIs and how we can apply them to container and presentational components to build out this small pizza application that demonstrates some things I’ve been thinking about lately.
 
 ### Usage
 - Clone or fork this repository
