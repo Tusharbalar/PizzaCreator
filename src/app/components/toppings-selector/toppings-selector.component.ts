@@ -6,7 +6,7 @@ import { Topping } from '../../pizza-interface';
 @Component({
   selector: 'toppings-selector',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  styleUrls: ['toppings-selector.component.scss'],
+  styleUrls: ['toppings-selector.component.css'],
   template: `
     <div class="toppings-selector" [formGroup]="parent">
       <div class="toppings-selector__item" *ngFor="let topping of toppings" [class.active]="isActive(topping)"

@@ -10,8 +10,10 @@ import { HomeComponent } from './home/home.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { PizzaNameComponent } from './components/pizza-name/pizza-name.component';
 import { PizzaListComponent } from './components/pizza-list/pizza-list.component';
+import { ToppingsSelectorComponent } from './components/toppings-selector/toppings-selector.component';
 import { PizzaButtonComponent } from './components/pizza-button/pizza-button.component';
 import { PizzaSelectedComponent } from './components/pizza-selected/pizza-selected.component';
+import { PizzaFormComponent } from './components/pizza-form/pizza-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PizzaSelectedComponent } from './components/pizza-selected/pizza-select
     PizzaNameComponent,
     PizzaListComponent,
     PizzaButtonComponent,
-    PizzaSelectedComponent
+    PizzaSelectedComponent,
+    PizzaFormComponent,
+    ToppingsSelectorComponent
   ],
   imports: [
     BrowserModule,
